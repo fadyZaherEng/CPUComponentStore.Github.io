@@ -1,0 +1,7 @@
+vhdl work "smallALU.vhd"
+vhdl work "ALUTest.vhd"
+vhdl work "and.vhd"
+vhdl work "or.vhd"
+vhdl work "adder.vhd"
+vhdl work "MyPackage.vhd"
+vhdl work "MUXTWOBIT.vhd"

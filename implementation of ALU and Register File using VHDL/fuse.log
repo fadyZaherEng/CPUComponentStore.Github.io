@@ -1,0 +1,32 @@
+Running: E:\bro\NewFolder\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/archiProject/MLS1ALU/RegisterFileTest_isim_beh.exe -prj E:/archiProject/MLS1ALU/RegisterFileTest_beh.prj work.RegisterFileTest 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/archiProject/MLS1ALU/RegisterPackage.vhd" into library work
+Parsing VHDL file "E:/archiProject/MLS1ALU/Reg.vhd" into library work
+Parsing VHDL file "E:/archiProject/MLS1ALU/MUX32.vhd" into library work
+Parsing VHDL file "E:/archiProject/MLS1ALU/Decoder.vhd" into library work
+Parsing VHDL file "E:/archiProject/MLS1ALU/RegisterFile.vhd" into library work
+Parsing VHDL file "E:/archiProject/MLS1ALU/RegisterFileTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161404 KB
+Fuse CPU Usage: 312 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package registerpackage
+Compiling architecture behavioral of entity Decoder [decoder_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity MUX32 [mux32_default]
+Compiling architecture behavioral of entity RegisterFile [registerfile_default]
+Compiling architecture behavior of entity registerfiletest
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 15 VHDL Units
+Built simulation executable E:/archiProject/MLS1ALU/RegisterFileTest_isim_beh.exe
+Fuse Memory Usage: 180872 KB
+Fuse CPU Usage: 639 ms

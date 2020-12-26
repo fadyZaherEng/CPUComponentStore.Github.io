@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/archiProject/MLS1ALU/TinyALU.xst" -ofn "E:/archiProject/MLS1ALU/TinyALU.syr" 

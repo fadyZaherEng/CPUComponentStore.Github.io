@@ -1,0 +1,488 @@
+--------------------------------------------------------------------------------
+Release 14.5 Trace  (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+E:\bro\NewFolder\14.5\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3
+-s 3 -n 3 -fastpaths -xml RegisterFile.twx RegisterFile.ncd -o RegisterFile.twr
+RegisterFile.pcf
+
+Design file:              RegisterFile.ncd
+Physical constraint file: RegisterFile.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.08 2013-03-26)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+write_data<0> |    0.786(R)|      FAST  |    1.691(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<1> |    0.567(R)|      FAST  |    1.843(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<2> |    0.837(R)|      FAST  |    1.735(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<3> |    0.560(R)|      FAST  |    1.749(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<4> |    0.138(R)|      FAST  |    2.080(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<5> |    0.272(R)|      FAST  |    1.947(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<6> |    0.259(R)|      FAST  |    1.965(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<7> |    0.177(R)|      FAST  |    2.094(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<8> |    0.264(R)|      FAST  |    2.127(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<9> |    0.428(R)|      FAST  |    2.027(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<10>|    0.409(R)|      FAST  |    1.977(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<11>|    0.466(R)|      FAST  |    1.943(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<12>|    0.502(R)|      FAST  |    2.037(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<13>|    0.424(R)|      FAST  |    2.033(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<14>|    0.400(R)|      FAST  |    2.036(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<15>|    0.382(R)|      FAST  |    2.058(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<16>|    0.683(R)|      FAST  |    1.885(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<17>|    0.622(R)|      FAST  |    1.845(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<18>|    0.463(R)|      FAST  |    2.029(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<19>|    0.482(R)|      FAST  |    1.898(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<20>|    0.739(R)|      FAST  |    1.530(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<21>|    0.555(R)|      FAST  |    1.657(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<22>|    0.292(R)|      FAST  |    1.341(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<23>|    0.784(R)|      FAST  |    1.756(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<24>|    0.330(R)|      FAST  |    1.328(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<25>|    0.547(R)|      FAST  |    1.784(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<26>|    0.183(R)|      FAST  |    1.970(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<27>|    0.521(R)|      FAST  |    1.764(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<28>|    0.315(R)|      FAST  |    2.038(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<29>|    0.379(R)|      FAST  |    1.870(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<30>|    0.438(R)|      FAST  |    1.903(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_data<31>|    0.361(R)|      FAST  |    1.945(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_ena     |    1.667(R)|      SLOW  |    0.832(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_sel<0>  |    2.579(R)|      SLOW  |    0.531(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_sel<1>  |    2.209(R)|      SLOW  |    0.599(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_sel<2>  |    2.106(R)|      SLOW  |    0.435(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_sel<3>  |    1.782(R)|      SLOW  |    0.760(R)|      SLOW  |clk_BUFGP         |   0.000|
+write_sel<4>  |    1.941(R)|      SLOW  |    0.790(R)|      SLOW  |clk_BUFGP         |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+data1<0>    |         9.971(R)|      SLOW  |         3.887(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<1>    |        10.172(R)|      SLOW  |         4.067(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<2>    |        10.336(R)|      SLOW  |         3.841(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<3>    |        10.361(R)|      SLOW  |         3.992(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<4>    |        10.641(R)|      SLOW  |         4.174(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<5>    |        10.777(R)|      SLOW  |         4.257(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<6>    |        10.605(R)|      SLOW  |         4.014(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<7>    |        10.512(R)|      SLOW  |         4.107(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<8>    |        10.456(R)|      SLOW  |         4.088(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<9>    |        10.515(R)|      SLOW  |         4.145(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<10>   |        10.380(R)|      SLOW  |         4.099(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<11>   |        10.618(R)|      SLOW  |         4.043(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<12>   |        10.669(R)|      SLOW  |         4.136(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<13>   |        10.535(R)|      SLOW  |         4.211(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<14>   |        10.611(R)|      SLOW  |         4.160(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<15>   |        10.183(R)|      SLOW  |         4.003(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<16>   |        10.356(R)|      SLOW  |         4.037(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<17>   |        10.766(R)|      SLOW  |         4.057(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<18>   |         9.991(R)|      SLOW  |         3.773(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<19>   |        10.242(R)|      SLOW  |         3.888(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<20>   |        10.268(R)|      SLOW  |         3.966(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<21>   |        10.207(R)|      SLOW  |         4.075(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<22>   |        10.435(R)|      SLOW  |         4.073(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<23>   |        10.222(R)|      SLOW  |         4.218(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<24>   |        10.403(R)|      SLOW  |         3.987(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<25>   |         9.992(R)|      SLOW  |         3.882(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<26>   |        10.303(R)|      SLOW  |         4.083(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<27>   |        10.340(R)|      SLOW  |         4.182(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<28>   |        10.319(R)|      SLOW  |         3.961(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<29>   |        10.270(R)|      SLOW  |         4.153(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<30>   |         9.879(R)|      SLOW  |         3.896(R)|      FAST  |clk_BUFGP         |   0.000|
+data1<31>   |        10.269(R)|      SLOW  |         4.039(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<0>    |        10.486(R)|      SLOW  |         4.043(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<1>    |        10.220(R)|      SLOW  |         3.987(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<2>    |        10.343(R)|      SLOW  |         4.044(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<3>    |        10.124(R)|      SLOW  |         3.979(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<4>    |        10.550(R)|      SLOW  |         4.078(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<5>    |        10.197(R)|      SLOW  |         3.893(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<6>    |        10.777(R)|      SLOW  |         4.093(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<7>    |        10.446(R)|      SLOW  |         4.030(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<8>    |        10.767(R)|      SLOW  |         4.119(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<9>    |        10.557(R)|      SLOW  |         4.273(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<10>   |        10.554(R)|      SLOW  |         4.068(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<11>   |        10.443(R)|      SLOW  |         4.099(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<12>   |        10.351(R)|      SLOW  |         3.941(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<13>   |        10.390(R)|      SLOW  |         4.024(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<14>   |        10.664(R)|      SLOW  |         4.183(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<15>   |        10.564(R)|      SLOW  |         4.096(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<16>   |        10.426(R)|      SLOW  |         4.127(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<17>   |        10.269(R)|      SLOW  |         4.070(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<18>   |        10.545(R)|      SLOW  |         4.138(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<19>   |        10.987(R)|      SLOW  |         4.456(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<20>   |        10.717(R)|      SLOW  |         4.141(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<21>   |        10.490(R)|      SLOW  |         4.217(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<22>   |        10.560(R)|      SLOW  |         3.998(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<23>   |        10.559(R)|      SLOW  |         4.376(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<24>   |        10.623(R)|      SLOW  |         4.111(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<25>   |        10.642(R)|      SLOW  |         4.239(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<26>   |        10.581(R)|      SLOW  |         4.244(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<27>   |        10.540(R)|      SLOW  |         4.084(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<28>   |        10.511(R)|      SLOW  |         4.104(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<29>   |        10.337(R)|      SLOW  |         4.007(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<30>   |        10.233(R)|      SLOW  |         4.149(R)|      FAST  |clk_BUFGP         |   0.000|
+data2<31>   |        10.533(R)|      SLOW  |         4.140(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+read_sel1<0>   |data1<0>       |    9.838|
+read_sel1<0>   |data1<1>       |   10.000|
+read_sel1<0>   |data1<2>       |    9.723|
+read_sel1<0>   |data1<3>       |    9.969|
+read_sel1<0>   |data1<4>       |   12.554|
+read_sel1<0>   |data1<5>       |   12.709|
+read_sel1<0>   |data1<6>       |   12.287|
+read_sel1<0>   |data1<7>       |   12.185|
+read_sel1<0>   |data1<8>       |   11.103|
+read_sel1<0>   |data1<9>       |   11.359|
+read_sel1<0>   |data1<10>      |   11.429|
+read_sel1<0>   |data1<11>      |   11.245|
+read_sel1<0>   |data1<12>      |   11.134|
+read_sel1<0>   |data1<13>      |   10.802|
+read_sel1<0>   |data1<14>      |   10.765|
+read_sel1<0>   |data1<15>      |   10.538|
+read_sel1<0>   |data1<16>      |   10.029|
+read_sel1<0>   |data1<17>      |   10.275|
+read_sel1<0>   |data1<18>      |    9.465|
+read_sel1<0>   |data1<19>      |    9.964|
+read_sel1<0>   |data1<20>      |    9.008|
+read_sel1<0>   |data1<21>      |    8.976|
+read_sel1<0>   |data1<22>      |    9.575|
+read_sel1<0>   |data1<23>      |    9.486|
+read_sel1<0>   |data1<24>      |    9.571|
+read_sel1<0>   |data1<25>      |    8.803|
+read_sel1<0>   |data1<26>      |    9.366|
+read_sel1<0>   |data1<27>      |    9.449|
+read_sel1<0>   |data1<28>      |    8.680|
+read_sel1<0>   |data1<29>      |    8.813|
+read_sel1<0>   |data1<30>      |    8.505|
+read_sel1<0>   |data1<31>      |    8.643|
+read_sel1<1>   |data1<0>       |    9.916|
+read_sel1<1>   |data1<1>       |   10.085|
+read_sel1<1>   |data1<2>       |    9.635|
+read_sel1<1>   |data1<3>       |   10.149|
+read_sel1<1>   |data1<4>       |   13.165|
+read_sel1<1>   |data1<5>       |   12.638|
+read_sel1<1>   |data1<6>       |   13.077|
+read_sel1<1>   |data1<7>       |   12.981|
+read_sel1<1>   |data1<8>       |   12.492|
+read_sel1<1>   |data1<9>       |   12.504|
+read_sel1<1>   |data1<10>      |   12.488|
+read_sel1<1>   |data1<11>      |   12.417|
+read_sel1<1>   |data1<12>      |   11.435|
+read_sel1<1>   |data1<13>      |   11.226|
+read_sel1<1>   |data1<14>      |   11.492|
+read_sel1<1>   |data1<15>      |   11.312|
+read_sel1<1>   |data1<16>      |   10.818|
+read_sel1<1>   |data1<17>      |   10.883|
+read_sel1<1>   |data1<18>      |   10.557|
+read_sel1<1>   |data1<19>      |   10.387|
+read_sel1<1>   |data1<20>      |   10.037|
+read_sel1<1>   |data1<21>      |    9.764|
+read_sel1<1>   |data1<22>      |    9.924|
+read_sel1<1>   |data1<23>      |   10.353|
+read_sel1<1>   |data1<24>      |    9.401|
+read_sel1<1>   |data1<25>      |    9.085|
+read_sel1<1>   |data1<26>      |    9.469|
+read_sel1<1>   |data1<27>      |    9.417|
+read_sel1<1>   |data1<28>      |    8.917|
+read_sel1<1>   |data1<29>      |    9.198|
+read_sel1<1>   |data1<30>      |    8.952|
+read_sel1<1>   |data1<31>      |    8.962|
+read_sel1<2>   |data1<0>       |    8.212|
+read_sel1<2>   |data1<1>       |    8.383|
+read_sel1<2>   |data1<2>       |    8.200|
+read_sel1<2>   |data1<3>       |    8.295|
+read_sel1<2>   |data1<4>       |   10.006|
+read_sel1<2>   |data1<5>       |    9.921|
+read_sel1<2>   |data1<6>       |    9.872|
+read_sel1<2>   |data1<7>       |   10.066|
+read_sel1<2>   |data1<8>       |    9.101|
+read_sel1<2>   |data1<9>       |    9.329|
+read_sel1<2>   |data1<10>      |    9.387|
+read_sel1<2>   |data1<11>      |    9.141|
+read_sel1<2>   |data1<12>      |    9.488|
+read_sel1<2>   |data1<13>      |    9.009|
+read_sel1<2>   |data1<14>      |    9.058|
+read_sel1<2>   |data1<15>      |    8.776|
+read_sel1<2>   |data1<16>      |    8.411|
+read_sel1<2>   |data1<17>      |    8.343|
+read_sel1<2>   |data1<18>      |    8.280|
+read_sel1<2>   |data1<19>      |    8.145|
+read_sel1<2>   |data1<20>      |    7.352|
+read_sel1<2>   |data1<21>      |    8.220|
+read_sel1<2>   |data1<22>      |    8.139|
+read_sel1<2>   |data1<23>      |    8.046|
+read_sel1<2>   |data1<24>      |    7.926|
+read_sel1<2>   |data1<25>      |    7.463|
+read_sel1<2>   |data1<26>      |    8.044|
+read_sel1<2>   |data1<27>      |    7.933|
+read_sel1<2>   |data1<28>      |    7.405|
+read_sel1<2>   |data1<29>      |    7.510|
+read_sel1<2>   |data1<30>      |    7.343|
+read_sel1<2>   |data1<31>      |    7.438|
+read_sel1<3>   |data1<0>       |    8.360|
+read_sel1<3>   |data1<1>       |    8.666|
+read_sel1<3>   |data1<2>       |    8.350|
+read_sel1<3>   |data1<3>       |    8.601|
+read_sel1<3>   |data1<4>       |    9.120|
+read_sel1<3>   |data1<5>       |    8.892|
+read_sel1<3>   |data1<6>       |    8.723|
+read_sel1<3>   |data1<7>       |    8.963|
+read_sel1<3>   |data1<8>       |    8.533|
+read_sel1<3>   |data1<9>       |    8.514|
+read_sel1<3>   |data1<10>      |    8.620|
+read_sel1<3>   |data1<11>      |    8.501|
+read_sel1<3>   |data1<12>      |    8.519|
+read_sel1<3>   |data1<13>      |    8.770|
+read_sel1<3>   |data1<14>      |    8.641|
+read_sel1<3>   |data1<15>      |    8.199|
+read_sel1<3>   |data1<16>      |    8.268|
+read_sel1<3>   |data1<17>      |    8.341|
+read_sel1<3>   |data1<18>      |    7.704|
+read_sel1<3>   |data1<19>      |    8.259|
+read_sel1<3>   |data1<20>      |    7.726|
+read_sel1<3>   |data1<21>      |    8.019|
+read_sel1<3>   |data1<22>      |    7.942|
+read_sel1<3>   |data1<23>      |    7.655|
+read_sel1<3>   |data1<24>      |    7.907|
+read_sel1<3>   |data1<25>      |    7.745|
+read_sel1<3>   |data1<26>      |    7.791|
+read_sel1<3>   |data1<27>      |    7.986|
+read_sel1<3>   |data1<28>      |    7.674|
+read_sel1<3>   |data1<29>      |    8.241|
+read_sel1<3>   |data1<30>      |    7.846|
+read_sel1<3>   |data1<31>      |    7.776|
+read_sel1<4>   |data1<0>       |    7.870|
+read_sel1<4>   |data1<1>       |    8.363|
+read_sel1<4>   |data1<2>       |    8.067|
+read_sel1<4>   |data1<3>       |    7.979|
+read_sel1<4>   |data1<4>       |    8.802|
+read_sel1<4>   |data1<5>       |    8.723|
+read_sel1<4>   |data1<6>       |    8.849|
+read_sel1<4>   |data1<7>       |    8.669|
+read_sel1<4>   |data1<8>       |    8.381|
+read_sel1<4>   |data1<9>       |    8.387|
+read_sel1<4>   |data1<10>      |    8.650|
+read_sel1<4>   |data1<11>      |    8.641|
+read_sel1<4>   |data1<12>      |    8.945|
+read_sel1<4>   |data1<13>      |    8.783|
+read_sel1<4>   |data1<14>      |    8.889|
+read_sel1<4>   |data1<15>      |    8.597|
+read_sel1<4>   |data1<16>      |    8.474|
+read_sel1<4>   |data1<17>      |    8.724|
+read_sel1<4>   |data1<18>      |    7.886|
+read_sel1<4>   |data1<19>      |    8.422|
+read_sel1<4>   |data1<20>      |    7.165|
+read_sel1<4>   |data1<21>      |    7.721|
+read_sel1<4>   |data1<22>      |    7.830|
+read_sel1<4>   |data1<23>      |    7.703|
+read_sel1<4>   |data1<24>      |    7.573|
+read_sel1<4>   |data1<25>      |    7.503|
+read_sel1<4>   |data1<26>      |    7.665|
+read_sel1<4>   |data1<27>      |    7.894|
+read_sel1<4>   |data1<28>      |    7.484|
+read_sel1<4>   |data1<29>      |    7.412|
+read_sel1<4>   |data1<30>      |    7.413|
+read_sel1<4>   |data1<31>      |    7.212|
+read_sel2<0>   |data2<0>       |   11.191|
+read_sel2<0>   |data2<1>       |   10.861|
+read_sel2<0>   |data2<2>       |   11.021|
+read_sel2<0>   |data2<3>       |   10.884|
+read_sel2<0>   |data2<4>       |   11.770|
+read_sel2<0>   |data2<5>       |   11.718|
+read_sel2<0>   |data2<6>       |   11.894|
+read_sel2<0>   |data2<7>       |   11.756|
+read_sel2<0>   |data2<8>       |   11.973|
+read_sel2<0>   |data2<9>       |   12.095|
+read_sel2<0>   |data2<10>      |   11.271|
+read_sel2<0>   |data2<11>      |   12.012|
+read_sel2<0>   |data2<12>      |   10.925|
+read_sel2<0>   |data2<13>      |   10.793|
+read_sel2<0>   |data2<14>      |   11.289|
+read_sel2<0>   |data2<15>      |   11.081|
+read_sel2<0>   |data2<16>      |   10.183|
+read_sel2<0>   |data2<17>      |   10.221|
+read_sel2<0>   |data2<18>      |   10.135|
+read_sel2<0>   |data2<19>      |   10.615|
+read_sel2<0>   |data2<20>      |    9.753|
+read_sel2<0>   |data2<21>      |    9.833|
+read_sel2<0>   |data2<22>      |    9.519|
+read_sel2<0>   |data2<23>      |   10.208|
+read_sel2<0>   |data2<24>      |    9.466|
+read_sel2<0>   |data2<25>      |    9.836|
+read_sel2<0>   |data2<26>      |    9.818|
+read_sel2<0>   |data2<27>      |    9.285|
+read_sel2<0>   |data2<28>      |    8.571|
+read_sel2<0>   |data2<29>      |    8.808|
+read_sel2<0>   |data2<30>      |    8.488|
+read_sel2<0>   |data2<31>      |    9.115|
+read_sel2<1>   |data2<0>       |   11.728|
+read_sel2<1>   |data2<1>       |   11.762|
+read_sel2<1>   |data2<2>       |   11.647|
+read_sel2<1>   |data2<3>       |   11.553|
+read_sel2<1>   |data2<4>       |   12.688|
+read_sel2<1>   |data2<5>       |   12.764|
+read_sel2<1>   |data2<6>       |   12.592|
+read_sel2<1>   |data2<7>       |   12.718|
+read_sel2<1>   |data2<8>       |   11.168|
+read_sel2<1>   |data2<9>       |   11.144|
+read_sel2<1>   |data2<10>      |   12.432|
+read_sel2<1>   |data2<11>      |   12.405|
+read_sel2<1>   |data2<12>      |   10.600|
+read_sel2<1>   |data2<13>      |   10.876|
+read_sel2<1>   |data2<14>      |   11.697|
+read_sel2<1>   |data2<15>      |   11.272|
+read_sel2<1>   |data2<16>      |   10.542|
+read_sel2<1>   |data2<17>      |   10.552|
+read_sel2<1>   |data2<18>      |   10.788|
+read_sel2<1>   |data2<19>      |   11.507|
+read_sel2<1>   |data2<20>      |   10.185|
+read_sel2<1>   |data2<21>      |    9.796|
+read_sel2<1>   |data2<22>      |   10.002|
+read_sel2<1>   |data2<23>      |   10.205|
+read_sel2<1>   |data2<24>      |    9.291|
+read_sel2<1>   |data2<25>      |    9.674|
+read_sel2<1>   |data2<26>      |    9.773|
+read_sel2<1>   |data2<27>      |    9.444|
+read_sel2<1>   |data2<28>      |    8.654|
+read_sel2<1>   |data2<29>      |    9.040|
+read_sel2<1>   |data2<30>      |    8.765|
+read_sel2<1>   |data2<31>      |    9.008|
+read_sel2<2>   |data2<0>       |    9.450|
+read_sel2<2>   |data2<1>       |    9.537|
+read_sel2<2>   |data2<2>       |    9.823|
+read_sel2<2>   |data2<3>       |    9.288|
+read_sel2<2>   |data2<4>       |   10.819|
+read_sel2<2>   |data2<5>       |   10.182|
+read_sel2<2>   |data2<6>       |   10.757|
+read_sel2<2>   |data2<7>       |   10.812|
+read_sel2<2>   |data2<8>       |   10.263|
+read_sel2<2>   |data2<9>       |   10.287|
+read_sel2<2>   |data2<10>      |   10.096|
+read_sel2<2>   |data2<11>      |   10.242|
+read_sel2<2>   |data2<12>      |    9.129|
+read_sel2<2>   |data2<13>      |    9.373|
+read_sel2<2>   |data2<14>      |    9.237|
+read_sel2<2>   |data2<15>      |    9.418|
+read_sel2<2>   |data2<16>      |    8.808|
+read_sel2<2>   |data2<17>      |    8.444|
+read_sel2<2>   |data2<18>      |    8.865|
+read_sel2<2>   |data2<19>      |    9.460|
+read_sel2<2>   |data2<20>      |    8.833|
+read_sel2<2>   |data2<21>      |    8.820|
+read_sel2<2>   |data2<22>      |    8.528|
+read_sel2<2>   |data2<23>      |    8.548|
+read_sel2<2>   |data2<24>      |    8.193|
+read_sel2<2>   |data2<25>      |    8.557|
+read_sel2<2>   |data2<26>      |    8.289|
+read_sel2<2>   |data2<27>      |    8.401|
+read_sel2<2>   |data2<28>      |    8.115|
+read_sel2<2>   |data2<29>      |    7.435|
+read_sel2<2>   |data2<30>      |    7.970|
+read_sel2<2>   |data2<31>      |    7.635|
+read_sel2<3>   |data2<0>       |    9.383|
+read_sel2<3>   |data2<1>       |    9.494|
+read_sel2<3>   |data2<2>       |    9.526|
+read_sel2<3>   |data2<3>       |    8.938|
+read_sel2<3>   |data2<4>       |    9.995|
+read_sel2<3>   |data2<5>       |    9.480|
+read_sel2<3>   |data2<6>       |   10.048|
+read_sel2<3>   |data2<7>       |   10.196|
+read_sel2<3>   |data2<8>       |    9.797|
+read_sel2<3>   |data2<9>       |   10.191|
+read_sel2<3>   |data2<10>      |    9.605|
+read_sel2<3>   |data2<11>      |    9.725|
+read_sel2<3>   |data2<12>      |    9.196|
+read_sel2<3>   |data2<13>      |    9.228|
+read_sel2<3>   |data2<14>      |    9.192|
+read_sel2<3>   |data2<15>      |    8.963|
+read_sel2<3>   |data2<16>      |    9.209|
+read_sel2<3>   |data2<17>      |    8.528|
+read_sel2<3>   |data2<18>      |    8.808|
+read_sel2<3>   |data2<19>      |    9.817|
+read_sel2<3>   |data2<20>      |    8.242|
+read_sel2<3>   |data2<21>      |    8.562|
+read_sel2<3>   |data2<22>      |    8.132|
+read_sel2<3>   |data2<23>      |    8.604|
+read_sel2<3>   |data2<24>      |    8.203|
+read_sel2<3>   |data2<25>      |    8.405|
+read_sel2<3>   |data2<26>      |    8.888|
+read_sel2<3>   |data2<27>      |    8.498|
+read_sel2<3>   |data2<28>      |    8.114|
+read_sel2<3>   |data2<29>      |    7.965|
+read_sel2<3>   |data2<30>      |    8.146|
+read_sel2<3>   |data2<31>      |    8.379|
+read_sel2<4>   |data2<0>       |   10.005|
+read_sel2<4>   |data2<1>       |    9.911|
+read_sel2<4>   |data2<2>       |   10.080|
+read_sel2<4>   |data2<3>       |    9.632|
+read_sel2<4>   |data2<4>       |   10.193|
+read_sel2<4>   |data2<5>       |    9.456|
+read_sel2<4>   |data2<6>       |   10.126|
+read_sel2<4>   |data2<7>       |   10.185|
+read_sel2<4>   |data2<8>       |    9.789|
+read_sel2<4>   |data2<9>       |    9.897|
+read_sel2<4>   |data2<10>      |    9.578|
+read_sel2<4>   |data2<11>      |    9.669|
+read_sel2<4>   |data2<12>      |    8.940|
+read_sel2<4>   |data2<13>      |    9.066|
+read_sel2<4>   |data2<14>      |    9.453|
+read_sel2<4>   |data2<15>      |    9.212|
+read_sel2<4>   |data2<16>      |    8.545|
+read_sel2<4>   |data2<17>      |    8.346|
+read_sel2<4>   |data2<18>      |    8.701|
+read_sel2<4>   |data2<19>      |    9.292|
+read_sel2<4>   |data2<20>      |    8.552|
+read_sel2<4>   |data2<21>      |    8.594|
+read_sel2<4>   |data2<22>      |    8.403|
+read_sel2<4>   |data2<23>      |    8.604|
+read_sel2<4>   |data2<24>      |    7.916|
+read_sel2<4>   |data2<25>      |    8.271|
+read_sel2<4>   |data2<26>      |    8.210|
+read_sel2<4>   |data2<27>      |    8.143|
+read_sel2<4>   |data2<28>      |    7.607|
+read_sel2<4>   |data2<29>      |    7.379|
+read_sel2<4>   |data2<30>      |    7.599|
+read_sel2<4>   |data2<31>      |    7.651|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jul 24 15:13:25 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 490 MB
+
+
+
